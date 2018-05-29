@@ -57,7 +57,7 @@ module JekyllAdmin
     end
 
     def host
-      JekyllAdmin.site.config["host"].sub("127.0.0.1", "localhost")
+      JekyllAdmin.site.config["adminbase"] #JekyllAdmin.site.config["host"].sub("127.0.0.1", "localhost")
     end
 
     def port
