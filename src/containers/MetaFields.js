@@ -87,6 +87,9 @@ export class MetaFields extends Component {
             Metadata will be stored as the <b>YAML front matter</b> within the
             document.
           </span>
+         <span class="tooltip-text">
+          If you are adding a new category please contact WebMaster at <a href="mailto:webmaster@carepaths.com">mailto:webmaster@carepaths.com</a>
+         </span>
         </a>
         <small className="tooltip pull-right">
           <i className="fa fa-info-circle" />Special Keys
